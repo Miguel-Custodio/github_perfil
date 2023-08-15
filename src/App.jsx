@@ -11,7 +11,12 @@ function App() {
 
   return (
     <>
-    <input type="text" onBlur={(e) => setNomeUsuario(e.target.value)} />
+      <div className="inicio">
+        <input className="input" type="text" placeholder="Digite o nome do usuário" onBlur={(e) => setNomeUsuario(e.target.value)} />
+        <button className="button" type="button">
+          <img className="img"  src="https://cdn-icons-png.flaticon.com/512/73/73357.png" alt="Lupa"/>
+        </button>
+      </div>
 
       {nomeUsuario.length > 4 && (
         <>

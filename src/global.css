@@ -15,3 +15,31 @@
     --corPrincipal: #55efc4;
     --corSecundaria: #000;
 }
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    background-color: var(--corPrincipal);
+}
+
+.input {
+    padding: 5px;
+    border: 2px solid var(--corSecundaria);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.button {
+    width: 32px;
+    height: 32px;
+    max-width: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.img {
+    max-width: 28px;
+    max-height: 28px;
+}
